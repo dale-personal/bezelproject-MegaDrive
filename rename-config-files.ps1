@@ -1,4 +1,4 @@
-$files = Get-ChildItem -File -Filter *.cfg -Path retroarch\config\Genesis Plus GX\
+$files = Get-ChildItem -File -Filter *.cfg -Path "retroarch\config\Genesis Plus GX\"
 
 for ($i=0; $i -lt $files.Count; $i++) {
     Write-Output $files[$i].FullName
